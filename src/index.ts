@@ -9,6 +9,7 @@ const deskNames: string[] = ['Nebulae', 'Equinox', 'Pulsar', 'Lionel']
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
+    WA.chat.sendChatMessage('Hello world', 'Mr Robot');
 
     for (const name of deskNames) {
         WA.room.onEnterLayer(name + 'OfficeTrigger').subscribe(() => {

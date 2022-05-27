@@ -717,7 +717,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"https:\/\/raw.githubusercontent.com\/florianeVisage\/WA_test\/master\/src\/index.ts"
+         "value":"script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.8.2",
